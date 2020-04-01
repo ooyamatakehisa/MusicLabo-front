@@ -1,10 +1,17 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Header from './Header.js'
+import StartPage from './StartPage.js'
+import SecondPage from './SecondPage.js'
 
-export default function App() {
+export default function(props) {
 
     return (
-        <Header/>
+        <Fragment>
+            <Header/>
+            <StartPage/> 
+            <SecondPage/> 
+        </Fragment>
+
     )
 
 }
