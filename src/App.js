@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import Header from './Header.js'
 import StartPage from './StartPage.js'
 import SecondPage from './SecondPage.js'
+import IndexPage from './IndexPage.js'
 
 export default function(props) {
 
@@ -10,6 +11,7 @@ export default function(props) {
             <Header/>
             <StartPage/> 
             <SecondPage/> 
+            <IndexPage/>
         </Fragment>
 
     )
