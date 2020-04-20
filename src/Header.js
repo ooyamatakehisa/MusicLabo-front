@@ -10,6 +10,7 @@ import Tooltip from '@material-ui/core/Tooltip';
 import MenuIcon from '@material-ui/icons/Menu';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import NotificationsIcon from '@material-ui/icons/Notifications';
+import css from './kanaFont.module.css';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -20,43 +21,33 @@ const useStyles = makeStyles((theme) => ({
     },
     title: {
         flexGrow: 1,
+        paddingLeft: "116px"
+
     },
     customizeToolbar: {
-        minHeight: "7vh"
+        minHeight: "75px"
     }
 }));
 
 export default function App() {
 
     const classes = useStyles();
-    const openGitHub = useCallback(
-        () => {
-            window.open('https://github.com/ooyamatakehisa/MusicLabo-front')
-        },
-        [], // Tells React to memoize regardless of arguments.
-      ); 
+    
 
     return (
         <div className={classes.root} >
-            <AppBar position="static" color="secondary">
+            <AppBar position="fixed"  style={{backgroundColor:"white", color:"black", opacity:"75%", boxShadow: "none"}}>
                 <Toolbar className={classes.customizeToolbar}>
-                    <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-                        <MenuIcon />
-                    </IconButton>
-                    <Typography variant="h6" className={classes.title}>
-                        Music Labo
+                    
+                    <Typography variant="h5" className={classes.title}>
+                        <span className={css.titleFont}>
+                            {process.env.REACT_APP_APP_NAME}.
+                        </span>
                     </Typography>
-                    <IconButton className={classes.menuButton} aria-label="show 11 new notifications" color="inherit">
-                        <Badge badgeContent={11} color="primary">
-                            <NotificationsIcon />
-                        </Badge>
+                    
+                    <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
+                        <MenuIcon styles={{width: "60",height: "60"}}/>
                     </IconButton>
-                    <Tooltip title="GitHub Repository">
-                        <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" onClick={openGitHub}>
-                            <GitHubIcon />
-                        </IconButton>
-                    </Tooltip>
-                    <Button color="inherit">Login</Button>
                 </Toolbar>
             </AppBar>
         </div>

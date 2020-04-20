@@ -3,6 +3,7 @@ import Header from './Header.js'
 import StartPage from './StartPage.js'
 import SecondPage from './SecondPage.js'
 import IndexPage from './IndexPage.js'
+import Footer from './Footer.jsx'
 
 export default function(props) {
 
@@ -12,6 +13,7 @@ export default function(props) {
             <StartPage/> 
             <SecondPage/> 
             <IndexPage/>
+            <Footer/>
         </Fragment>
 
     )
