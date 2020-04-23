@@ -8,10 +8,6 @@ This app use techniques from latest research and implement it.
                             <NotificationsIcon />
                         </Badge>
                     </IconButton>
-                    <Tooltip title="GitHub Repository">
-                        <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" onClick={openGitHub}>
-                            <GitHubIcon />
-                        </IconButton>
-                    </Tooltip>
+                    
 
                     <Button color="inherit">Login</Button>

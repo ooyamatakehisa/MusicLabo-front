@@ -1,0 +1,75 @@
+@font-face {
+    font-family: OratorStd;
+    src: url('../font/OratorStd.otf') format("opentype");
+}
+
+@font-face {
+    font-family: kana;
+    src: url('../font/Audrey-Bold.otf') format("opentype");
+}
+
+@font-face {
+    font-family: Kozuka;
+    src: url('../font/KozGoPr6N-Regular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: YuGothic;
+    src: url('../font/yugothib.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url('../font/Helvetica.ttc') format("truetype");
+}
+
+.title{
+    font-family: kana;
+    padding-top: 30vh;
+    vertical-align: middle;
+    /* font-weight: 600;  */
+}
+
+.titleFont {
+    font: Bold 30px/36px kana;
+    letter-spacing: 3.6px;
+}
+
+.subTitle {
+    font: Bold 1vw/2.2 Kozuka;
+    letter-spacing: 0.6px;
+
+}
+.font{
+    font-family: SuperCoolMyFont;
+}
+
+.scroll {
+    font:  14px/20px OratorStd;
+    letter-spacing: 0.7px;
+    padding-bottom: 84px;
+}
+.scroll:after {
+    width: 2px;
+    height: 84px;
+    left: 50%;
+    bottom: 0;
+    content: "";
+    display: block;
+    background-color: #899495;
+    position: absolute;
+
+}
+
+.separationPane1 {
+    font: Bold 25px/35px YuGothic;
+}
+.separationPane2 {
+    font: Bold 21px/10px YuGothic;
+}
+
+
+.footerFont {
+    font:  15px/20px Helvetica;
+    letter-spacing: 1px;
+}
