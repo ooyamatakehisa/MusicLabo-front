@@ -25,7 +25,7 @@ export default function CopyPane() {
                     <Box pl={10} pr={14}  position="relative" height="100%">
                         <span className={css.separationPane1}> 02.</span>
                         <span className={css.separationPane2}> COPY</span>
-                        <Box pt={2} pl={3} className={css.subTitle}>
+                        <Box pt={2} className={css.subTitle}>
                             Analyzes uploaded audio files and separates them into separate audio files for each instrument and outputs them.
                             This feature is useful, for example, when copying parts of an instrument that cannot be heard clearl as ay, such bass guitars.
                         </Box>

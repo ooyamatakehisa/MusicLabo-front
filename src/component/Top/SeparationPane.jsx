@@ -21,7 +21,7 @@ export default function SeparationPane() {
                     <Box py="auto" pr={3} height="100%" position="relative">
                         <span className={css.separationPane1}> 01.</span>
                         <span className={css.separationPane2}> SEPARATION</span>
-                        <Box pt={2} pl={3} className={css.subTitle}>
+                        <Box pt={2} className={css.subTitle}>
                             Analyzes uploaded audio files and separates them into separate audio files for each instrument and outputs them.
                             This feature is useful, for example, when copying parts of an instrument that cannot be heard clearl as ay, such bass guitars.
                         </Box>
