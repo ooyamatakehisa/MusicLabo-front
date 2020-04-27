@@ -11,7 +11,7 @@ export default function ArrangePane() {
             variant="body1"
             style={{ height: "30vw", width: '100%', position: 'relative' }}
         >
-            <Grid container style={{ textAlign: "left", position: "absolute", zIndex: "1800", padding: "7vw 10%", height: "100%" }} >
+            <Grid container style={{ textAlign: "left", position: "absolute", zIndex: "1800", padding: "7vw 10vw", height: "100%" }} >
                 <Grid item xs={6} style={{height:"100%"}}>
                     <Box position="relative" height="100%">
                         <span className={css.separationPane1}> 03.</span>

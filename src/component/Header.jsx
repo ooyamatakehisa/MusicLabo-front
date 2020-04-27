@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
         marginRight: theme.spacing(4),
     },
     title: {
-        paddingLeft: "116px",
+        paddingLeft: "10vw",
         paddingRight: "35px",
 
     },
@@ -28,7 +28,7 @@ export default function Header() {
 
     return (
         <AppBar position="fixed" style={{ backgroundColor: "white", color: "black", opacity: "75%", boxShadow: "none" }}>
-            <Toolbar className={classes.customizeToolbar}>
+            <Toolbar className={classes.customizeToolbar} style={{ paddingLeft:"0px"}}>
                 <div style={{ flexGrow: "1" }}>
                     <span className={css.titleFont + " " + classes.title}>
                         {process.env.REACT_APP_APP_NAME}

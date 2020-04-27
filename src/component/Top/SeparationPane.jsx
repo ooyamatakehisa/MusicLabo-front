@@ -16,7 +16,7 @@ const style = {
 export default function SeparationPane() {
     return (
         <div style={style.secondPage} id="here">
-            <Grid container style={{ padding:"7vw 10%", width:"100%",height:"100%" }}>
+            <Grid container style={{ padding:"7vw 10vw", width:"100%",height:"100%" }}>
                 <Grid item xs={6} style={{ padding:"15px 0px" }}>
                     <Box py="auto" pr={3} height="100%" position="relative">
                         <span className={css.separationPane1}> 01.</span>

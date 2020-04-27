@@ -17,7 +17,7 @@ const style = {
 export default function CopyPane() {
     return (
         <div style={style.secondPage} id="here">
-            <Grid container style={{ paddingTop:"11vh", paddingBottom:"11vh", height:"100%"}}>
+            <Grid container style={{ paddingTop:"7vw", paddingBottom:"7vw", height:"100%"}}>
                 <Grid item xs={6} style={{height:"100%"}}>
                     <img src={`${process.env.PUBLIC_URL}/copy.png`} alt="Logo" style={{ width: "100%", height: "100%" }} />
                 </Grid>
