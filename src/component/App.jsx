@@ -1,11 +1,12 @@
-import React, { Component, Fragment } from 'react';
+import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
+import { CssBaseline } from '@material-ui/core/';
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
 import { TopPane, SeparationPane, CopyPane, ArrangePane, Brank } from 'component/Top'
 
-import Separation from './Separation.jsx'
+import Separation from './Separation/Separation.jsx'
 import Copy from './Copy.jsx'
 
 import '../css/index.css';
@@ -15,6 +16,7 @@ export default function (props) {
 
     return (
         <Fragment>
+            <CssBaseline />
             <Header />
             <Router>
                 <Switch>

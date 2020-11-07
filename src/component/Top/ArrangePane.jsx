@@ -36,13 +36,8 @@ export default function ArrangePane() {
                     </Box>
                 </Grid>
             </Grid>
-
-            <Box position="absolute"
-                top={0}
-                left="25%"
-                style={{ height: "30vw", width: "75%", backgroundColor: "#F2F2F2", zIndex: "0" }}
-
-            ></Box>
+ 
+            <Box position="absolute" top={0} left="25%" style={{ height: "30vw", width: "75%", backgroundColor: "#F2F2F2", zIndex: "0" }}></Box>
         </Typography>
     );
 }

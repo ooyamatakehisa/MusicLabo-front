@@ -60,7 +60,7 @@ export default function Footer(prop) {
                         </Box>
                     </Grid>
                     <Grid item xs={5} align="center">
-                Copyright © 2020{today.getFullYear() > 2020 && "-" + today.getFullYear()} {process.env.REACT_APP_APP_NAME}
+                        Copyright © 2020{today.getFullYear() > 2020 && "-" + today.getFullYear()} {process.env.REACT_APP_APP_NAME}
                         
                     </Grid>
                    

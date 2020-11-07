@@ -62,10 +62,36 @@
 }
 
 .separationPane1 {
-    font: Bold 25px/35px YuGothic;
+    font: Bold 1.5vw/35px YuGothic;
 }
 .separationPane2 {
-    font: Bold 21px/10px YuGothic;
+    font: Bold 1.2vw/10px YuGothic;
+}
+
+.label {
+    position: absolute;
+    color: white;
+    font-size: 1.5vh;
+    filter: drop-shadow(0px 0px 2px rgba(0,0,0,0.5)); 
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    z-index:2;
+}
+.shadow {
+    font-size:1.5vh;
+    /* box-sizing:content-border;
+    background-color:white;*/
+     filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.7)); 
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.7));
+    /* box-shadow:10px 10px; */
+}
+.shadow:hover {
+    cursor: pointer;
 }
 
 

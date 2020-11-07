@@ -11,14 +11,10 @@ const styles = {
         maxWidth: "100%",
         height: "100vh",
         textAlign: "left",
-        // backgroundImage: "url('6.png')",
+        backgroundColor:"white",
         backgroundSize: "cover",
     },
-    opacity: {
-        height: "100%",
-        background: "rgba(255,255,255,0.8)"
-
-    },
+    
     button: {
         margin: "1vh",
         padding: "1vh"
@@ -47,7 +43,6 @@ const useStyles = makeStyles((theme) => ({
 
 
 export default function Top() {
-    console.log(css)
     const classes = useStyles();
     const openGitHub = useCallback(
         () => {
@@ -105,7 +100,6 @@ export default function Top() {
                     scroll
                 </div>
             </Box>
-
         </Box>
     )
 
