@@ -15,7 +15,7 @@ export default function ArrangePane() {
                 <Grid item xs={6} style={{height:"100%"}}>
                     <Box position="relative" height="100%">
                         <span className={css.separationPane1}> 03.</span>
-                        <span className={css.separationPane2}> Arrange</span>
+                        <span className={css.separationPane2}> Time Stretch</span>
                         <Box pt={2} pr={3} className={css.subTitle} >
                             Analyzes uploaded audio files and separates them into separate audio files for each instrument and outputs them.
                             This feature is useful, for example, when copying parts of an instrument that cannot be heard clearl as

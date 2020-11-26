@@ -6,7 +6,9 @@ import Header from './Header.jsx'
 import Footer from './Footer.jsx'
 import { TopPane, SeparationPane, CopyPane, ArrangePane, Brank } from 'component/Top'
 
-import Separation from './Separation/Separation.jsx'
+import Separation1 from './Separation/Separation1.jsx'
+// import Separation2 from './Separation/Separation2.jsx'
+// import Separation3 from './Separation/Separation3.jsx'
 import Copy from './Copy.jsx'
 
 import '../css/index.css';
@@ -20,9 +22,15 @@ export default function (props) {
             <Header />
             <Router>
                 <Switch>
-                    <Route path="/separation">
-                        <Separation />
+                    <Route path="/separation/1">
+                        <Separation1 />
                     </Route>
+                    {/* <Route path="/separation/1">
+                        <Separation2 />
+                    </Route>
+                    <Route path="/separation/1">
+                        <Separation3 />
+                    </Route> */}
                     <Route path="/copy">
                         <Copy />
                     </Route>

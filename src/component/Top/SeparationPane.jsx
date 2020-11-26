@@ -26,7 +26,7 @@ export default function SeparationPane() {
                             This feature is useful, for example, when copying parts of an instrument that cannot be heard clearl as ay, such bass guitars.
                         </Box>
                         <Box bottom="0px" right="10%" position="absolute">
-                            <Link to="/separation" style={{textDecoration:"none"}}>
+                            <Link to="/separation/1" style={{textDecoration:"none"}}>
                                 <Button variant="outlined" color="secondary" style={{ width: "130px" }} >
                                     Start
                                 </Button>

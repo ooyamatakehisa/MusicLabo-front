@@ -67,7 +67,7 @@ export default function Top() {
         <Box style={styles.startPage} >
             <Grid container>
                 <Grid item xs={6} >
-                    <Box mt={10} className={css.subTitle} style={{ paddingLeft: "10vw", width: "520px" }}>
+                    <Box mt={10} className={css.subTitle} style={{ paddingLeft: "10vw", width: "75%" }}>
                         This site helps performers to improve their skills by analyzing music files using the methods used in the latest papers.
                         Specifically, we can use RNN (recurrent neural network), which is the most popular method recently,
                         to separate the sound sources, analyze the chords, and change the playback speed.
